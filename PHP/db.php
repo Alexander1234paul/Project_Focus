@@ -13,7 +13,7 @@
 			$user='root';
 			$password='';
 			$hostname='localhost';
-			$database='easy';
+			$database='focus';
 			$cadenaConexion=mysqli_connect($hostname,$user,$password,$database);
 			$cadenaConexion->set_charset('utf8');
 			return $cadenaConexion;	
