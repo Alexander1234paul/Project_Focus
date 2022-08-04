@@ -5,6 +5,8 @@
 		echo '<script> location.href= "../index.html"; </script>';
 		die();
 	}
+
+	#prueba
 ?>
 <!doctype html>
 <html xmlns:p="http://primefaces.org/ui">>
@@ -15,6 +17,7 @@
 	</script>
 	<link rel="stylesheet" href="../css/style_menu.css">
 </head>
+
 
 <body>
 	<header>
