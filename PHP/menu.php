@@ -57,6 +57,7 @@
 								<li><a href="#">Roles</a></li>
 								<li><a href="#">Permisos</a></li>
 								<li><a href="#">Categorías</a></li>
+								<li><a href="empresa.php">Empresas</a></li>
 							</ul>
 							
 						</li>
