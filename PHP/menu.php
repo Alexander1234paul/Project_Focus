@@ -14,6 +14,8 @@
 	<script src="https://kit.fontawesome.com/41bcea2ae3.js" crossoringin="anonymus">
 	</script>
 	<link rel="stylesheet" href="../css/style_menu.css">
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">	
 </head>
 
 <body>
@@ -27,19 +29,7 @@
 			</div>
 		</div>
 		<div class="login">
-				<?php
-					echo ($_SESSION['login']['NOMBRES']." ".$_SESSION['login']['APELLIDOS']);
-				?>
-				</p>
-				<?php
-					echo ($_SESSION['login']['ROL']);
-				?>
-				</p>
-				<?php
-					echo ($_SESSION['login']['EMPRESA']);
-				?>
-				</p>
-				<a href="cerrar_sesion.php">Cerrar Sesión</a>
+				
 			</div>
 		<div class="container__menu">
 			<div class="menu">
@@ -49,7 +39,7 @@
 				</label>
 				<nav>
 					<ul>
-						<li><a href="#" id="selected"></a></li>
+						<li><a href="menu.php" id="selected"></a></li>
 						<li>
 							<a href="#">Administración</a>
 							<ul>
@@ -77,6 +67,14 @@
 						</li>
 						<li><a href="#">Cartera</a></li>
 						<li><a href="#">Ayuda</a></li>
+						<li>
+							<a href="#"><?php
+								echo ($_SESSION['login']['NOMBRES']." ".$_SESSION['login']['APELLIDOS']);
+							?>	</a>
+							<ul>
+								<li><a href="cerrar_sesion.php">Cerrar Sesion</a></li>
+							</ul>
+						</li>
 					</ul>
 				</nav>
 			</div>

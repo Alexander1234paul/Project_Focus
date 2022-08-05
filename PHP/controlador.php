@@ -1,4 +1,7 @@
 <?php
+
+use LDAP\Result;
+
 	include("db.php");
     
 	function ctrlVacios()
